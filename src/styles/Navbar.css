@@ -2,8 +2,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #1b2430;
-    padding: 20px 80px;
+    background: #b9c4ca;
+    padding-left: 12%;
+    
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
   }
   #navbar {

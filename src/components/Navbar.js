@@ -1,4 +1,4 @@
-import "../styles/NavbarStyles.css";
+import "../styles/Navbar.css";
 function Navbar() {
   return (
     <>
@@ -6,7 +6,7 @@ function Navbar() {
         <div>
           <ul id="navbar">
             <li>
-              <a href="about.js">Home</a>
+              <a href="Intro.js">Home</a>
             </li>
             <li>
               <a href="about.js">About</a>
