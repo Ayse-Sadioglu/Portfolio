@@ -40,11 +40,7 @@ class About extends React.Component {
     return (
       <div id="about">
     
-          <div className="section-header ">
-          <div className="about-image">
-            </div>
-            <span className="section-title">about me</span>
-          </div>
+         
           <div className="about-content">
             <div className="about-description">
               {[one]}

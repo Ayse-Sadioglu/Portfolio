@@ -1,17 +1,19 @@
 import React from "react";
-import About from "./components/About";
 import Navbar from "./components/Navbar";
-
+import Intro from "./components/Intro";
+import About from "./components/About";
+import Contact from "./components/Contact";
 import "./App.css";
 import "./styles/Global.css";
-import Intro from "./components/Intro";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navbar/>
       <Intro></Intro>
       <About></About>
+      <Contact></Contact>
+     
     </div>
   );
 }
