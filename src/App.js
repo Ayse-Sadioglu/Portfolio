@@ -4,6 +4,7 @@ import "./App.css";
 import "./styles/Global.css";
 import Particles from "./components/Particles"
 import Intro from "./components/Intro"
+import About from"./components/About"
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Particles/>
       <Navbar/>
       <Intro/>
+      <About/>
       
       
       

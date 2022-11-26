@@ -14,13 +14,13 @@ canvas {
 .intro-title {
   margin-top: -36px;
   font-family: "NTR", sans-serif;
-  color: var(--black);
+  color: var(--white);
   font-weight: 300;
   font-size: 60px;
 }
 
 .intro-description {
-  color: var(--black);
+  color: var(--white);
   font-family: "NTR", sans-serif;
   font-size: 22px;
   max-width: 40%;

@@ -1,8 +1,9 @@
 #about {
-  padding-left: 15%;
-  padding-right: 25%;
-  min-height: 80vh;
-  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 25%;
+  padding-top: 10%;
 }
 
 .about-description ul {
