@@ -1,18 +1,25 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Intro from "./components/Intro";
-import About from "./components/About";
-import Contact from "./components/Contact";
 import "./App.css";
 import "./styles/Global.css";
+import Particles from "./components/Particles"
+import Intro from "./components/Intro"
+
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <Particles/>
       <Navbar/>
-      <Intro></Intro>
-      <About></About>
-      <Contact></Contact>
+      <Intro/>
+      
+      
+      
+      
+      
+
+      
+     
      
     </div>
   );

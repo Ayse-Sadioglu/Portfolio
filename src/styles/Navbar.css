@@ -23,12 +23,12 @@ nav {
   text-decoration: none;
   font-size: 1.3rem;
   font-weight: 600;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   transition: 0.3s ease-in-out;
 }
 #navbar li a:hover,
 #navbar li a.active {
-  color: #17cf97;
+  color: #0123b9;
 }
 
 #navbar li a:hover::after,
@@ -36,7 +36,7 @@ nav {
   content: "";
   width: 30%;
   height: 2px;
-  background: #17cf97;
+  background: #177ccf;
   position: absolute;
   bottom: -4px;
   left: 20px;
