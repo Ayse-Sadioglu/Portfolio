@@ -4,7 +4,8 @@ import "./App.css";
 import "./styles/Global.css";
 import Particles from "./components/Particles"
 import Intro from "./components/Intro"
-import About from"./components/About"
+import About from "./components/About"
+import Contact from "./components/Contact"
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Navbar/>
       <Intro/>
       <About/>
+      <Contact/>
       
       
       

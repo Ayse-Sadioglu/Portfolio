@@ -1,10 +1,7 @@
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding-left: 12%;
-  /*position: fixed;*/
-  /* z-index: 1;*/
+  justify-content: center;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
 #navbar {
@@ -28,7 +25,7 @@ nav {
 }
 #navbar li a:hover,
 #navbar li a.active {
-  color: #0123b9;
+  color: #7f01b9;
 }
 
 #navbar li a:hover::after,
