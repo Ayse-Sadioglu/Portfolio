@@ -19,19 +19,10 @@ const ParticlesComponent = (props) => {
         zIndex: -1, // this is the z-index value used when the fullScreen is enabled, it's 0 by default
       },
       interactivity: {
-        events: {
-          onClick: {
-            enable: true, // enables the click event
-            mode: "push", // adds the particles on click
-          },
-          onHover: {
-            enable: true, // enables the hover event
-            mode: "repulse", // make the particles run away from the cursor
-          },
-        },
+       
         modes: {
           push: {
-            quantity: 5, // number of particles to add on click
+            quantity: 10, // number of particles to add on click
           },
           repulse: {
             distance: 100, // distance of the particles from the cursor
@@ -43,13 +34,13 @@ const ParticlesComponent = (props) => {
 
         move: {
           enable: true, // enabling this will make particles move in the canvas
-          speed: { min: 1, max: 2 }, // using a range in speed value will make particles move in a random speed between min/max values, each particles have its own value, it won't change in time by default
+          speed: { min: 0.5, max: 1 }, // using a range in speed value will make particles move in a random speed between min/max values, each particles have its own value, it won't change in time by default
         },
         opacity: {
-          value: { min: 0.3, max: 0.7 }, // using a different opacity, to have some semitransparent effects
+          value: { min: 0.5, max: 1 }, // using a different opacity, to have some semitransparent effects
         },
         size: {
-          value: { min: 1, max: 3 }, // let's randomize the particles size a bit
+          value: { min: 0.5, max: 1 }, // let's randomize the particles size a bit
         },
       },
     };
