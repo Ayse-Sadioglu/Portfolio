@@ -1,14 +1,8 @@
 #contact {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  padding-left: 25%;
-  padding-top: 10%;
+  padding-left: 50%;
+  
+ 
 }
     
-.icon{
-  size: 100px;
-  color: blueviolet;
-
-}
-  

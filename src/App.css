@@ -1,8 +1,30 @@
 .App  {
   text-align: center;
-  background-color: #000000;
   overflow: hidden;
 
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+ 
+  padding: 10px;
+}
+.grid-item {
+ 
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 200px;
+  
+}
+.grid-item2 {
+ 
+ 
+  
+  font-size: 30px;
+  text-align: center;
+  
 }
 
 
