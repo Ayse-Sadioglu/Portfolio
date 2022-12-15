@@ -4,4 +4,22 @@
     align-items: flex-start;
    
     
+  }.experience-content {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .experience-description {
+    font-family: "NTR", sans-serif;
+    color: var(--slate);
+    max-width: 600px;
+    font-size: 22px;
+    text-align: justify;
+    
+  }
+  
+  .experience-description a,
+  .experience-description b {
+    font-size: 21px;
+    font-weight: bold;
   }

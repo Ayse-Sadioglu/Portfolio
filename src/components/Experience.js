@@ -5,6 +5,12 @@ class Intro extends React.Component {
 
     return (
         <div class="Experience">
+           <div className="experience-content">
+          <div className="experience-description">
+            
+
+     </div>
+          </div>
          
         
         </div>

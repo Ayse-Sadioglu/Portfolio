@@ -24,11 +24,11 @@ function App() {
           <About />
         </div>
         <div class="grid-item">
-          <img src={require("./assets/computercat2.gif")} alt="obiwan" />
+          
         </div>
         <div class="grid-item"></div>
         <div class="grid-item2">
-        <h1 class="text">Designed and developed by Ayse</h1>
+        <h3 class="text">Designed and developed by Ayse</h3>
 
          
         </div>

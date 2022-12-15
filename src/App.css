@@ -5,12 +5,13 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto ;
+  
 
   padding: 10px;
 }
 .grid-item {
-  border: 1px solid rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(22, 22, 22, 0.8);
 
   padding: 20px;
   font-size: 30px;
@@ -18,7 +19,7 @@
   margin-bottom: 200px;
 }
 .grid-item2 {
-  border: 1px solid rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(13, 13, 13, 0.8);
 
   font-size: 30px;
   text-align: center;
