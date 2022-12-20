@@ -42,6 +42,8 @@ class About extends React.Component {
     return (
       <div id="about">
         <div className="about-content">
+ 
+
           <div className="about-description">
             {[one]}
             {"Here are some technologies I have been working with:"}

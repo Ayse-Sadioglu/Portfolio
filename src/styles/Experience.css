@@ -7,7 +7,16 @@
   }.experience-content {
     display: flex;
     flex-direction: row;
+    
   }
+  .experience-title {
+    font-family:  sans-serif;
+    color: var(--slate);
+    font-weight: 300;
+    font-size: 35px;
+
+  }
+  
   
   .experience-description {
     font-family: "NTR", sans-serif;

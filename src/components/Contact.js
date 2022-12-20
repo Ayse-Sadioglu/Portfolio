@@ -13,7 +13,7 @@ class Contact extends React.Component {
         
 
 
-        <div class="margin">
+        <div >
           <a href="https://github.com/Ayse-Sadioglu">
             <h3>
               <FaGithub size={30} color="#26a641" />
@@ -21,7 +21,7 @@ class Contact extends React.Component {
           </a>
         </div>
 
-        <div class="margin">
+        <div >
           {" "}
           <a href="https://www.linkedin.com/in/ayse-sadioglu-1720a11a1/">
             <h3>
@@ -29,7 +29,8 @@ class Contact extends React.Component {
             </h3>
           </a>
         </div>
-        <div class="margin"> 
+        
+        <div > 
         <a href="mailto:1aysesadioglu@gmail.com">
           <h3>
             <AiFillMail size={30} color="#E85445" />

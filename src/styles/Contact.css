@@ -1,7 +1,7 @@
 #contact {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  
+  gap: 32px;
  
   
  
@@ -12,11 +12,17 @@
   color: var(--slate);
   font-family:  sans-serif;
   font-size: 22px;
+  display: inline-block;
+
+
+
+  
+ 
+  
+  
 
  
 
 }
-.margin{
-  margin-left: 20px;
-}
+
 

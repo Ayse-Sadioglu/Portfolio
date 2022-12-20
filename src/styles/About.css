@@ -1,7 +1,7 @@
 #about {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
  
   
 }
@@ -19,7 +19,15 @@
   font-size: 18px;
   color: var(--slate);
 }
-
+.about-title {
+  font-family: "NTR", sans-serif;
+  color: var(--slate);
+  max-width: 600px;
+  font-size: 30px;
+  text-align: justify;
+  
+  
+}
 .about-description li::before {
   content: "▹    ";
   color: #283149;

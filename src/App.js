@@ -6,6 +6,7 @@ import Particles from "./components/Particles";
 import Intro from "./components/Intro";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -25,16 +26,17 @@ function App() {
         </div>
         <div class="grid-item">
           
+          <Experience />
         </div>
-        <div class="grid-item"></div>
-        <div class="grid-item2">
-        <h3 class="text">Designed and developed by Ayse</h3>
 
-         
+        <div class="grid-item2">
+        </div>
+
+        <div class="grid-item2">
+          <h3 class="text">Designed and developed by Ayse</h3>
         </div>
         <div class="grid-item2">
-        
-        <Contact />
+          <Contact />
         </div>
       </div>
     </div>
