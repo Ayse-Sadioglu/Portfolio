@@ -1,28 +1,6 @@
-#contact {
-  display: flex;
-  
-  gap: 32px;
- 
-  
- 
+.contact {
+    position:fixed;
 }
-    
-
-.text {
-  color: var(--slate);
-  font-family:  sans-serif;
-  font-size: 22px;
-  display: inline-block;
-
-
-
-  
- 
-  
-  
-
- 
-
+.text{
+   color: var(--slate);
 }
-
-

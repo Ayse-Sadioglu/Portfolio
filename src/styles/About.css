@@ -1,9 +1,13 @@
+@font-face {
+  font-family: "NTR";
+  font-weight: 200;
+  font-display: fallback;
+}
+
 #about {
-  display: flex;
-  align-items: center;
-  justify-content: center;
- 
-  
+  padding-left: 15%;
+  padding-right: 25%;
+  min-height: 60vh;
 }
 
 .about-description ul {
@@ -19,18 +23,10 @@
   font-size: 18px;
   color: var(--slate);
 }
-.about-title {
-  font-family: "NTR", sans-serif;
-  color: var(--slate);
-  max-width: 600px;
-  font-size: 30px;
-  text-align: justify;
-  
-  
-}
+
 .about-description li::before {
   content: "▹    ";
-  color: #283149;
+  color: var(--green-bright);
   position: absolute;
   left: 0;
 }
@@ -46,7 +42,7 @@
   max-width: 600px;
   font-size: 22px;
   text-align: justify;
-  
+  margin: 0;
 }
 
 .about-description a,
