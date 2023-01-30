@@ -1,3 +1,4 @@
+import { minHeight, padding } from "@mui/system";
 import React from "react";
 import "../styles/About.css";
 
@@ -31,8 +32,20 @@ class About extends React.Component {
         "C & C++",
         "Verilog"
       ];
+      const links = [
+       
+        <a href="https://open.spotify.com/user/nwwjzryjj4xcg1sm0k3ozbiwu?si=510cc029957d4b02">
+        Spotify </a>,
+         <a href="https://letterboxd.com/otomatcayi/">
+               
+
+        LetterBoxd</a>,
+        
+      ];
   
       const tech_items = tech_stack.map(stack => <li>{stack}</li>);
+      const link_items = links.map(stack => <li>{stack}</li>);
+
     return (
       <div id="about">
         <div className="about-content">
@@ -41,7 +54,7 @@ class About extends React.Component {
           <div className="about-description">
           {[one]}
             {"Here are some technologies I have been working with:"}
-            <ul className="tech-stack">
+            <ul >
                 {tech_stack.map(function (tech_item, i) {
            return(
             
@@ -52,7 +65,21 @@ class About extends React.Component {
           })}
            </ul>
            {[two]}
+           <ul >
+                {links.map(function (link_items, i) {
+           return(
+            
+            <li>{link_items}</li>
+
+
+           );
+          })}
+           </ul>
+           <img src={require("../assets/r2d2.gif")} alt="r2d2" />
+           
           
+
+
 
           
           </div>

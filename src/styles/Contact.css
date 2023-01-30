@@ -1,6 +1,9 @@
 .contact {
     position:fixed;
+    padding-top:5cm;
 }
 .text{
    color: var(--slate);
+   padding-top:5cm;
+
 }
