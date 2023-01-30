@@ -10,7 +10,7 @@ class Intro extends React.Component {
     
       <span className="intro-title">
        
-        <span className="intro-name">{"Hello There"}</span>
+        <span className="intro-name">{"Hello I'm Ayse"}</span>
       </span>
       <div className="intro-desc">
      This is my website built with React.js

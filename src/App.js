@@ -14,13 +14,17 @@ function App() {
       <Particles />
       <Navbar />
       <div class="obiwan">
-        <img src={require("./assets/obiwan.gif")} alt="obiwan" />
-      </div>
+<img src={require("./assets/obiwan.gif")} alt="obiwan" />
+</div>
       <Intro />
+
+
       <About />
       <Contact />
     </div>
   );
 }
-
+//   <div class="obiwan">
+//<img src={require("./assets/obiwan.gif")} alt="obiwan" />
+//</div>
 export default App;
