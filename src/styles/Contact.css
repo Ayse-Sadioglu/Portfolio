@@ -1,9 +1,14 @@
 .contact {
-    position:fixed;
     padding-top:5cm;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+
 }
 .text{
    color: var(--slate);
    padding-top:5cm;
+  
 
 }

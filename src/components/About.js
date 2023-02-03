@@ -1,6 +1,8 @@
 import { minHeight, padding } from "@mui/system";
 import React from "react";
 import "../styles/About.css";
+import FadeIn from 'react-fade-in';
+
 
 class About extends React.Component {
   render() {
@@ -75,9 +77,9 @@ class About extends React.Component {
            );
           })}
            </ul>
+
            <img src={require("../assets/r2d2.gif")} alt="r2d2" />
            
-          
 
 
 
@@ -85,7 +87,7 @@ class About extends React.Component {
           </div>
         </div>
       </div>
-    );
+   );
   }
 }
 

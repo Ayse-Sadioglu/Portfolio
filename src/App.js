@@ -6,6 +6,7 @@ import Particles from "./components/Particles";
 import Intro from "./components/Intro";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Header from "./components/Header";
 
 function App() {
   return (
@@ -13,8 +14,8 @@ function App() {
       {" "}
       <Particles />
       <Navbar />
+      <Header/>
       <div class="obiwan">
-<img src={require("./assets/obiwan.gif")} alt="obiwan" />
 </div>
       <Intro />
 
