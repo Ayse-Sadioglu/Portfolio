@@ -1,7 +1,5 @@
-import { minHeight, padding } from "@mui/system";
 import React from "react";
 import "../styles/About.css";
-import FadeIn from 'react-fade-in';
 
 
 class About extends React.Component {

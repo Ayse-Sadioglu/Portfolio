@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/Intro.css";
-import FadeIn from 'react-fade-in';
 
 class Intro extends React.Component {
   render() {
