@@ -3,24 +3,16 @@ import "../styles/Intro.css";
 
 class Intro extends React.Component {
   render() {
-    
     return (
-      
       <div id="intro">
-     
-    
-      <span className="intro-title">
-       
-        <span className="intro-name">{}</span>
-      </span>
-      <div className="intro-desc">
-   
+-
+         <div class="obiwan">
+        <img src={require("../assets/starwars.gif")} alt="sw" />
       </div>
-    
-  
-  </div>
+      
+      </div>
+      
     );
-    
   }
 }
 
