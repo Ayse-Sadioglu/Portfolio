@@ -6,8 +6,8 @@ class Intro extends React.Component {
     return (
       <div id="intro">
 -
-         <div class="obiwan">
-        <img src={require("../assets/starwars.gif")} alt="sw" />
+         <div class="sw">
+        <img  style={{ width: 700, height: 700 }} src={require("../assets/starwars.gif")} alt="sw" />
       </div>
       
       </div>

@@ -1,6 +1,6 @@
 #intro {
   display: flex;
-  padding-top: 5%;
+  padding-top: 2%;
   min-height: 90vh;
   justify-content: center;
   padding-right: 12%;
@@ -13,10 +13,13 @@ b {
 
 
 .sw {
-  display: flex;
   align-items: center;
   justify-content: center;
+  padding-left: 12%;
+  padding-bottom: 2%;
+  
+
   
  
 }
-  
+

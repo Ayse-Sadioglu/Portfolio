@@ -76,7 +76,7 @@ class About extends React.Component {
           })}
            </ul>
 
-           <img src={require("../assets/r2d2.gif")} alt="r2d2" />
+           <img style={{ width: 500, height: 400, paddingTop:"10%" }}  src={require("../assets/bb8.gif")} alt="r2d2"  />
            
 
 
