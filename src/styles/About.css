@@ -7,6 +7,9 @@
   display: flex;
 
 }
+a {
+  color: #7E9DCD;
+}
 
 .about-description ul {
   padding-top: 20px;
@@ -24,7 +27,7 @@
 
 .about-description li::before {
   content: "▹    ";
-  color: var(--green-bright);
+  color: rgb(215, 203, 248);
   position: absolute;
   left: 0;
 }

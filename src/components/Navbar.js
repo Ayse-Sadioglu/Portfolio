@@ -6,13 +6,16 @@ function Navbar() {
         <div>
           <ul id="navbar">
             <li>
-              <a href="Intro.js">Home</a>
+              <a href="Intro.js">Navbar</a>
             </li>
             <li>
-              <a href="about.js">About</a>
+              <a href="about.js">is not</a>
             </li>
             <li>
-              <a href="about.js">Experience</a>
+              <a href="about.js">Avaliable </a>
+            </li>
+            <li>
+              <a href="about.js">yet :(</a>
             </li>
           </ul>
         </div>

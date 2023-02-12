@@ -27,7 +27,7 @@ nav {
 }
 #navbar li a:hover,
 #navbar li a.active {
-  color: #7f01b9;
+  color: #e9bbff;
 }
 
 #navbar li a:hover::after,

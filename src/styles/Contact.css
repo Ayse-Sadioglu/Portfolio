@@ -9,6 +9,12 @@
 .text{
    color: var(--slate);
    padding-top:5cm;
+
   
 
+}
+.fixed-icon{
+    position: fixed;
+    right: 0;
+    top: 140px;
 }

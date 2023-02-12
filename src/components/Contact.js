@@ -7,6 +7,8 @@ import { Container, Row, Col } from "react-bootstrap";
 class Contact extends React.Component {
   render() {
     return (
+
+      
       <div id="contact">
         <h2 className="text"> Contact me</h2>
         <a href="https://github.com/Ayse-Sadioglu">
