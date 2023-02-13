@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.3ff66efc.css",
+    "main.js": "/Portfolio/static/js/main.e26b998e.js",
+    "static/js/787.71e672d5.chunk.js": "/Portfolio/static/js/787.71e672d5.chunk.js",
+    "static/media/starwars.gif": "/Portfolio/static/media/starwars.133b759f099391d7c386.gif",
+    "static/media/bb8.gif": "/Portfolio/static/media/bb8.02311531265dd1739752.gif",
+    "index.html": "/Portfolio/index.html",
+    "main.3ff66efc.css.map": "/Portfolio/static/css/main.3ff66efc.css.map",
+    "main.e26b998e.js.map": "/Portfolio/static/js/main.e26b998e.js.map",
+    "787.71e672d5.chunk.js.map": "/Portfolio/static/js/787.71e672d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ff66efc.css",
+    "static/js/main.e26b998e.js"
+  ]
+}
