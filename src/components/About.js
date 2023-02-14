@@ -16,7 +16,7 @@ class About extends React.Component {
       const two = (
         <p>
           Outside of work, I'm interested in listening to music and watch movies.
-          You can find what i listen and what i watch from the links above!
+          You can find what i listen and what i watch from the links below!
         </p>
       );
     
