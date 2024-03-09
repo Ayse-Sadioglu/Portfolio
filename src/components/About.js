@@ -6,7 +6,7 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am currently a third year <b>Computer Science</b> major at
+        I am currently a fourth year <b>Computer Science</b> major at
         <a href="https://www.etu.edu.tr">
           {" "}
           TOBB University of Economics & Technology
@@ -16,7 +16,7 @@ class About extends React.Component {
       const two = (
         <p>
           Outside of work, I'm interested in listening to music and watch movies.
-          You can find what i listen and what i watch from the links below!
+          You can find my taste in music & movies from the links below!
         </p>
       );
     
