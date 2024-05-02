@@ -1,59 +1,48 @@
 .App {
-  text-align: center;
-  overflow: hidden;
+    text-align: center;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto ;
-  
-
-  padding: 10px;
-}
-.grid-item {
-  border: 1px solid rgba(22, 22, 22, 0.8);
-
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-  margin-bottom: 200px;
-}
-.grid-item2 {
-  border: 1px solid rgba(13, 13, 13, 0.8);
-
-  
-font-size: 30px;
-  text-align: center;
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
 }
 
-html {
-  scroll-behavior: smooth;
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
-.column {
-  float: left;
-  width: 33.33%;
+.App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.App-link {
+    color: #61dafb;
 }
 
-.text{
-  color: aliceblue;
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
-.obiwan {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-left: 15%;
-  padding-top: 2%;
-  
- 
+#tsparticles {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    z-index: -1;
 }
-  
-  
-
