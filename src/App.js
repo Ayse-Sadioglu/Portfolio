@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadFull } from "tsparticles";
 import particlesOptions from "./particles.json";
+import ResponsiveAppBar from './components/ResponsiveAppBar';
 
 function App() {
   const [init, setInit] = useState(false);
@@ -23,6 +24,7 @@ function App() {
     <div className="App">
       {init && <Particles options={particlesOptions} />}
       <header className="App-header"></header>
+      <ResponsiveAppBar />
     </div>
   );
 }
