@@ -90,7 +90,7 @@ function ResponsiveAppBar() {
               ))}
             </Menu>
           </Box>
-          <img src={logo} alt="Logo" style={{ width: '30px', height: '30px', marginRight: '5px' }} />
+          <img src={logo} alt="Logo" style={{ width: '50px', height: '50px', marginRight: '5px' }} />
           <Typography
             variant="h5"
             noWrap

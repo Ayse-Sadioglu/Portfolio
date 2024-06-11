@@ -1,0 +1,26 @@
+.intro-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  .intro-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .intro-image {
+    width: 200px;
+    margin-right: 20px;
+  }
+  .intro-text {
+    color: #ffff;
+  }
+  .text {
+    color: rgb(248, 234, 208);
+    font-size: 50px;
+
+  }
