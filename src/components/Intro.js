@@ -16,6 +16,8 @@ return (
     <div className="intro-content">
       <div className="intro-text">
         <h1 className="intro-header">Drem Yol Lok, Greetings</h1> 
+        <p className="intro-subtext">*Drem Yol Lok, which translates to 'Peace, Fire, Sky' in  <a href="https://www.thuum.org/learn/practice/phrases.php" className="intro-link">Dovahzul,</a> is used to mean 'greetings'</p>
+
       </div>
     </div>
   </div>
