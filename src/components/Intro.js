@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import "../styles/Intro.css";
 import AsciiArtPrinter from './AsciiArtPrinter ';
-const Intro = () => {
+
+const Intro = ({ onLoaded }) => {
   const myAsciiArt = ` `;
   const letters = myAsciiArt.split('');
-
+  useEffect(() => {
+    if (onLoaded) {
+      onLoaded();
+    }
+  }, [onLoaded]);
 
 return (
   <div className="intro-container">
