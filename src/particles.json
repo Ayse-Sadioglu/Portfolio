@@ -65,5 +65,8 @@
       "random": true,
       "value": 1
     }
+  },
+  "fullScreen": {
+    "zIndex": -1
   }
 }

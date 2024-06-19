@@ -10,6 +10,8 @@
     display: flex;
     align-items: center;
     max-width: 1200px;
+    flex-direction: column;
+    gap: 8px;
   }
   
   .about-image {
@@ -21,6 +23,7 @@
     height: auto;
     margin-left: 30px;
     object-fit: cover;
+    margin-top: 20px;
   }
   
   .about-text {
@@ -42,4 +45,15 @@
     font-size: 22px;
     color: #ccc2c2;
     line-height: 1.5;
+   
+  }
+  .technologies-list-container {
+    display: flex;
+    gap: 5px; 
+  }
+  .technologies-list {
+    list-style-type: circle;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    flex: 1;
   }

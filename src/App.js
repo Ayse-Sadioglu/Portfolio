@@ -5,6 +5,7 @@ import particlesOptions from "./particles.json";
 import ResponsiveAppBar from './components/ResponsiveAppBar';
 import Intro from "./components/Intro";
 import About from "./components/About";
+import Credits from "./components/Credits";
 
 function App() {
   const [init, setInit] = useState(false);
@@ -33,6 +34,8 @@ function App() {
       <ResponsiveAppBar />
       <Intro/>
       <About/>
+      <Credits/>
+     
       
     </div>
   );
