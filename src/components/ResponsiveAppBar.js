@@ -14,7 +14,7 @@ import MenuItem from '@mui/material/MenuItem';
 import logo from '../assets/cal.png'; 
 
 
-const pages = ['Home', 'About', 'Projects'];
+const pages = ['Home', 'About', 'Projects','Interests'];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);

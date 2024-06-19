@@ -15,6 +15,7 @@
     "react-dom": "^18.3.1",
     "react-font": "^1.2.1",
     "react-moving-text": "^0.0.7",
+    "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1",
     "react-simple-animate": "^3.5.2",
     "react-typist": "^2.0.5",

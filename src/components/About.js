@@ -1,11 +1,13 @@
 import React from "react";
 import "../styles/About.css";
 import charonImage from "../assets/charon.jpg";
+import { Link } from "react-router-dom";
+
 
 //¯\_(ツ)_/¯
-const technologies = [
+const tech_stack  = [
   "Java",
-  "Pyhton",
+  "Python",
   "React.js",
   "Verilog",
   "JavaScript",
@@ -26,25 +28,21 @@ const About = () => {
             hands-on with various projects. Here are some technologies I have
             been working with:
           </p>
-          <div className="technologies-list-container">
-            <ul className="technologies-list custom-font">
-              {technologies
-                .slice(0, Math.ceil(technologies.length / 2))
-                .map((tech, index) => (
-                  <li key={index}>{tech}</li>
-                ))}
+          <div className="tech-stack-grid">
+            <ul className="tech-stack">
+              {tech_stack.slice(0, 3).map((tech_item, i) => (
+                <li key={i}>{tech_item}</li>
+              ))}
             </ul>
-            <ul className="technologies-list custom-font">
-              {technologies
-                .slice(Math.ceil(technologies.length / 2))
-                .map((tech, index) => (
-                  <li key={index}>{tech}</li>
-                ))}
+            <ul className="tech-stack">
+              {tech_stack.slice(3).map((tech_item, i) => (
+                <li key={i}>{tech_item}</li>
+              ))}
             </ul>
           </div>
           <p className="custom-font">
-            Outside of my studies, I'm interested in music and play the violin
-            and piano. I'm also an amateur figure skater.
+            Outside of my studies, I'm interested in music and figure skating.
+            {/* You can find more about my music taste and hobbies. TODO: New page and its routing will be added*/}
           </p>
         </div>
         {/* <div className="about-image">

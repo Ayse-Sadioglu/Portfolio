@@ -47,13 +47,18 @@
     line-height: 1.5;
    
   }
-  .technologies-list-container {
-    display: flex;
-    gap: 5px; 
+  .tech-stack-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
   }
-  .technologies-list {
+  
+  .tech-stack {
     list-style-type: circle;
     padding-left: 20px;
-    margin-bottom: 20px;
-    flex: 1;
+    margin: 0;
+  }
+  
+  .tech-stack li {
+    margin-bottom: 2px;
   }
