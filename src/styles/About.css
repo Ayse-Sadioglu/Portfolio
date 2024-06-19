@@ -19,20 +19,27 @@
   .about-image img {
     width: 200px;
     height: auto;
-    margin-right: 20px;
+    margin-left: 30px;
     object-fit: cover;
   }
   
   .about-text {
-    font-size: 18px;
+    font-family: 'NTR', sans-serif;
+    font-size: 22px;
     color: #fdf7f7;
     max-width: 800px;
   }
   
   .about-header {
-    font-size: 30px;
+    font-family: 'NTR', sans-serif;
+    font-size: 40px;
     font-weight: bold;
-    color: #f5efb9;
+    color: #96bec3;
     margin-bottom: 20px;
   }
-  
+  .custom-font {
+    font-family: 'NTR', sans-serif;
+    font-size: 22px;
+    color: #ccc2c2;
+    line-height: 1.5;
+  }

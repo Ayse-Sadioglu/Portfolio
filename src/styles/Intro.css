@@ -48,9 +48,17 @@
   }
 }
 .intro-subtext {
+  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   color: #ccc; 
   margin-top: 20px; 
   text-align: center;
 
-}
+} 
+.intro-image {
+  width: 300px; 
+  height: auto; 
+  margin-bottom: 20px; 
+  display: block; 
+  margin-left: auto;
+  margin-right: auto; }
