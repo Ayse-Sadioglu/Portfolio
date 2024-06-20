@@ -1,92 +1,51 @@
 import React from "react";
 import "../styles/About.css";
+import charonImage from "../assets/charon.jpg";
+import { Link } from "react-router-dom";
+import Credits from "./Credits";
 
+//¯\_(ツ)_/¯
+const tech_stack = ["Java", "Python", "React.js", "Verilog", "JavaScript", "C"];
 
-class About extends React.Component {
-  render() {
-    const one = (
-      <p>
-        I am currently a fourth year <b>Computer Science</b> major at
-        <a href="https://www.etu.edu.tr">
-          {" "}
-          TOBB University of Economics & Technology
-        </a>
-      </p>
-    );    
-      const two = (
-        <p>
-          Outside of work, I'm interested in listening to music and watch movies.
-          You can find my taste in music & movies from the links below!
-        </p>
-      );
-    
-      const desc_items = [one, two];
-  
-      const tech_stack = [
-        "Java",
-        "Python",
-        "React.js",
-        "React Native",
-        "Javascript",
-        "HTML & CSS",
-        "C & C++",
-        "Verilog"
-      ];
-      const links = [
-       
-        <a href="https://open.spotify.com/user/nwwjzryjj4xcg1sm0k3ozbiwu?si=510cc029957d4b02">
-        Spotify </a>,
-         <a href="https://letterboxd.com/otomatcayi/">
-               
-
-        LetterBoxd</a>,
-        
-      ];
-  
-      const tech_items = tech_stack.map(stack => <li>{stack}</li>);
-      const link_items = links.map(stack => <li>{stack}</li>);
-
-    return (
-      <div id="about">
-        <div className="about-content">
- 
-
-          <div className="about-description">
-          {[one]}
-            {"Here are some technologies I have been working with:"}
-            <ul >
-                {tech_stack.map(function (tech_item, i) {
-           return(
-            
-            <li>{tech_item}</li>
-
-
-           );
-          })}
-           </ul>
-           {[two]}
-           <ul >
-                {links.map(function (link_items, i) {
-           return(
-            
-            <li>{link_items}</li>
-
-
-           );
-          })}
-           </ul>
-
-           <img style={{ width: 500, height: 400, paddingTop:"10%" }}  src={require("../assets/bb8.gif")} alt="r2d2"  />
-           
-
-
-
-          
+const About = () => {
+  return (
+    <div className="about-container">
+      <div className="about-content">
+        <div className="about-text">
+          <h2 className="about-header">about me</h2>
+          <p className="custom-font">Hey there, I'm Ayse.</p>
+          <p className="custom-font">
+            I'm a senior Computer Engineering student at TOBB University of
+            Economics and Technology. I love working on my own projects and
+            trying to explore different fields within computer engineering by
+            getting hands-on with various projects. Here are some technologies I
+            have been working with:
+          </p>
+          <div className="tech-stack-grid">
+            <ul className="tech-stack">
+              {tech_stack.slice(0, 3).map((tech_item, i) => (
+                <li key={i}>{tech_item}</li>
+              ))}
+            </ul>
+            <ul className="tech-stack">
+              {tech_stack.slice(3).map((tech_item, i) => (
+                <li key={i}>{tech_item}</li>
+              ))}
+            </ul>
           </div>
+          <p className="custom-font">
+            Outside of my studies, I'm interested in music and figure skating.
+            You can find more about my music taste and hobbies{" "}
+            <Link to="/interests"> here</Link>.
+          </p>
         </div>
+        {/* <div className="about-image">
+          <img src={charonImage} alt="About" />
+        </div> */}
       </div>
-   );
-  }
-}
+     
+    </div>
+  );
+};
 
 export default About;

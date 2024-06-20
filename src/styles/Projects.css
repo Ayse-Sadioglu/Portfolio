@@ -1,0 +1,40 @@
+
+.projects-container {
+    padding: 40px;
+    min-height: 100vh;
+  }
+  
+  .project-card {
+    background-color: transparent!important;
+    color: #ffffff; 
+    border: none;
+    box-shadow: none;
+  }
+  
+  .project-title {
+    color: #a374f3; 
+  }
+  
+  .project-description {
+    color: #f1ecec; 
+  }
+  .projects-image img {
+    width: 200px;
+    height: auto;
+    margin-left: 30px;
+    object-fit: cover;
+    margin-top: 20px;
+  }
+
+.custom-button {
+    background-color: #98ce98 !important; 
+    border-color: #4a9751 !important; 
+    color: #000000 !important; 
+  }
+  
+  .custom-button:hover {
+    background-color: #63c057 !important;  
+    border-color: #53aa48 !important; 
+    color: #ffffff !important; 
+  }
+  

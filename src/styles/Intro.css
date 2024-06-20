@@ -1,25 +1,64 @@
-#intro {
+.intro-container {
   display: flex;
-  padding-top: 2%;
-  min-height: 90vh;
-  justify-content: center;
-  padding-right: 12%;
-}
-
-
-b {
-  font-size: 17px;
-}
-
-
-.sw {
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-left: 12%;
-  padding-bottom: 2%;
-  
-
-  
- 
+  height: 100vh; 
+  z-index: 2;
+  padding-top: 0; 
+  position: relative;
+  margin-top: -50px; 
 }
 
+.intro-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-text {
+  color: #ffff;
+}
+
+.intro-header {
+  color: hsl(0, 0%, 28%);
+  font-size: 50px!important;
+  font-weight: bold!important;
+  font-family: monospace;
+  letter-spacing: 7px!important;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 10px;
+  background: linear-gradient(to right, hsla(0, 0%, 30%, 0.521) 0, hsl(0, 0%, 100%) 10%, hsl(23, 4%, 58%) 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 6s infinite linear;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 600px;
+  }
+  100% {
+    background-position: 600px;
+  }
+}
+.intro-subtext {
+  font-family: 'Playwrite AU QLD', sans-serif;
+  font-size: 15px;
+  color: #ccc; 
+  margin-top: 5px; 
+  text-align: center;
+
+} 
+.intro-image {
+  width: 300px; 
+  height: auto; 
+  margin-bottom: 20px; 
+  display: block; 
+  margin-left: auto;
+  margin-right: auto; }

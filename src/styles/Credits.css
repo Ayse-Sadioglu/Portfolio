@@ -1,0 +1,21 @@
+#credits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #a374f3;
+    text-align: center;
+    z-index: 1;
+  
+    position: relative; /*Fixes when the component stays behind the particles.*/
+  }
+  
+  .ending-credits {
+    font-family: 'NTR', sans-serif; 
+    font-size: 15px;
+  }
+  
+  .ending-credits div {
+    margin: 2px 0;
+  }
+  
