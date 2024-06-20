@@ -9,6 +9,7 @@ import About from "./components/About";
 import Credits from "./components/Credits";
 import Home from "./components/Home";
 import Interests from "./components/Interests";
+import Projects from "./components/Projects";
 
 function App() {
   const [init, setInit] = useState(false);
@@ -34,6 +35,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/interests" element={<Interests />} />
+        <Route path="/projects" element={<Projects />} /> 
       </Routes>
     </div>
   </Router>
