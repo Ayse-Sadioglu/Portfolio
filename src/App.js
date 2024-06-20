@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadFull } from "tsparticles";
 import particlesOptions from "./particles.json";
@@ -28,18 +28,17 @@ function App() {
 
   return (
     <Router>
-    <div className="App">
-      <Navbar /> 
-      {init && <Particles id="tsparticles" options={particlesOptions} />}
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/interests" element={<Interests />} />
-        <Route path="/projects" element={<Projects />} /> 
-      </Routes>
-    </div>
-  </Router>
-
+      <div className="App">
+        <Navbar /> 
+        {init && <Particles id="tsparticles" options={particlesOptions} />}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/interests" element={<Interests />} />
+          <Route path="/projects" element={<Projects />} /> 
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
