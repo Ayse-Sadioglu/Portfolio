@@ -6,6 +6,7 @@
     color: #a374f3;
     text-align: center;
     z-index: 1;
+  
     position: relative; /*Fixes when the component stays behind the particles.*/
   }
   

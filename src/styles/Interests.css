@@ -1,0 +1,32 @@
+
+.interests-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    z-index: 1;
+
+  }
+  
+  .interests-container h2 {
+    font-size: 2rem;
+    color:#8a52d8; 
+    z-index: 1;
+    font-family: 'NTR', sans-serif;
+
+
+  }
+  
+  .interests-container p {
+    font-size: 1.5rem;
+    color: #a8effa; 
+    font-family: 'NTR', sans-serif;
+
+    z-index: 1;
+
+  }
+  

@@ -8,6 +8,7 @@ import Intro from "./components/Intro";
 import About from "./components/About";
 import Credits from "./components/Credits";
 import Home from "./components/Home";
+import Interests from "./components/Interests";
 
 function App() {
   const [init, setInit] = useState(false);
@@ -26,15 +27,17 @@ function App() {
 
   return (
     <Router>
-      <div className="App">
+    <div className="App">
       <Navbar /> 
-        {init && <Particles id="tsparticles" options={particlesOptions} />}
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-        </Routes>
-      </div>
-    </Router>
+      {init && <Particles id="tsparticles" options={particlesOptions} />}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/interests" element={<Interests />} />
+      </Routes>
+    </div>
+  </Router>
+
   );
 }
 

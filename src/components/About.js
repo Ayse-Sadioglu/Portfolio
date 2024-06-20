@@ -2,17 +2,10 @@ import React from "react";
 import "../styles/About.css";
 import charonImage from "../assets/charon.jpg";
 import { Link } from "react-router-dom";
-
+import Credits from "./Credits";
 
 //¯\_(ツ)_/¯
-const tech_stack  = [
-  "Java",
-  "Python",
-  "React.js",
-  "Verilog",
-  "JavaScript",
-  "C",
-];
+const tech_stack = ["Java", "Python", "React.js", "Verilog", "JavaScript", "C"];
 
 const About = () => {
   return (
@@ -23,10 +16,10 @@ const About = () => {
           <p className="custom-font">Hey there, I'm Ayse.</p>
           <p className="custom-font">
             I'm a senior Computer Engineering student at TOBB University of
-            Economics and Technology. I love working on my own projects and trying
-            to explore different fields within computer engineering by getting
-            hands-on with various projects. Here are some technologies I have
-            been working with:
+            Economics and Technology. I love working on my own projects and
+            trying to explore different fields within computer engineering by
+            getting hands-on with various projects. Here are some technologies I
+            have been working with:
           </p>
           <div className="tech-stack-grid">
             <ul className="tech-stack">
@@ -42,13 +35,15 @@ const About = () => {
           </div>
           <p className="custom-font">
             Outside of my studies, I'm interested in music and figure skating.
-            {/* You can find more about my music taste and hobbies. TODO: New page and its routing will be added*/}
+            You can find more about my music taste and hobbies{" "}
+            <Link to="/interests"> here</Link>.
           </p>
         </div>
         {/* <div className="about-image">
           <img src={charonImage} alt="About" />
         </div> */}
       </div>
+     
     </div>
   );
 };

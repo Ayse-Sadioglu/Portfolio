@@ -1,33 +1,3 @@
-/* Global CSS veya App.css dosyasında NavBar ve butonlar için stiller */
-.MuiAppBar-root {
-  z-index: 1000;
-  position: relative;
-}
-
-.MuiToolbar-root {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; /* Yazıları dikeyde ortalayın */
-  min-height: 64px; /* Toolbar yüksekliğini ayarlayın */
-}
-
-.MuiButton-root {
-  padding: 10px 20px; /* Padding değerlerini artırarak tıklanabilir alanı genişletin */
-  line-height: 1.75;
-}
-
-.MuiMenuItem-root {
-  padding: 10px 20px; /* Padding değerlerini artırarak tıklanabilir alanı genişletin */
-  line-height: 1.75;
-}
-
-.MuiTypography-root a {
-  display: block; /* Inline-block yerine block kullanarak tüm alanı tıklanabilir yapın */
-  width: 100%;
-  height: 100%;
-  text-decoration: none;
-  color: inherit;
-}
 
 #tsparticles {
   position: fixed;
@@ -47,10 +17,7 @@ nav {
   height: 100%;
 }
 
-.MuiContainer-root {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
+
 
 .route-container {
   position: relative;
