@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadFull } from "tsparticles";
 import particlesOptions from "./particles.json";
-import ResponsiveAppBar from './components/ResponsiveAppBar';
+import Navbar from "./components/Navbar"; 
 import Intro from "./components/Intro";
 import About from "./components/About";
 import Credits from "./components/Credits";
+import Home from "./components/Home";
 
 function App() {
   const [init, setInit] = useState(false);
-  const [introLoaded, setIntroLoaded] = useState(false);
 
   useEffect(() => {
     if (init) {
@@ -23,25 +24,18 @@ function App() {
     });
   }, []);
 
-  const handleIntroLoaded = () => {
-    setIntroLoaded(true);
-  };
-
   return (
-    <div className="App">
-      {init && <Particles options={particlesOptions} />}
-      <header className="App-header"></header>
-      <ResponsiveAppBar />
-      <Intro/>
-      <About/>
-      <Credits/>
-     
-      
-    </div>
+    <Router>
+      <div className="App">
+      <Navbar /> 
+        {init && <Particles id="tsparticles" options={particlesOptions} />}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
 export default App;
-//Note:Mounting is done right to left, so to speak. You should visualize a DOM tree. 
-//The deepest element is done mounting first, then its parent, and then its parent parent.
-//A component can not be done mounting if its children are not mounted.

@@ -1,51 +1,60 @@
-.App {
-    text-align: center;
-    position: relative;
-    z-index: 1;
-  }
-  
-  .App-logo {
-    height: 40vmin;
-    pointer-events: none;
-  }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
-  }
-  
-  .App-header {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: rgb(0, 0, 0);
-  }
-  
-  .App-link {
-    color: #000000;
-  }
-  
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
-  #tsparticles {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    left: 0;
-    top: 0;
-    z-index: -1;
-  }
-  
+/* Global CSS veya App.css dosyasında NavBar ve butonlar için stiller */
+.MuiAppBar-root {
+  z-index: 1000;
+  position: relative;
+}
+
+.MuiToolbar-root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Yazıları dikeyde ortalayın */
+  min-height: 64px; /* Toolbar yüksekliğini ayarlayın */
+}
+
+.MuiButton-root {
+  padding: 10px 20px; /* Padding değerlerini artırarak tıklanabilir alanı genişletin */
+  line-height: 1.75;
+}
+
+.MuiMenuItem-root {
+  padding: 10px 20px; /* Padding değerlerini artırarak tıklanabilir alanı genişletin */
+  line-height: 1.75;
+}
+
+.MuiTypography-root a {
+  display: block; /* Inline-block yerine block kullanarak tüm alanı tıklanabilir yapın */
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+#tsparticles {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.MuiContainer-root {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.route-container {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+}

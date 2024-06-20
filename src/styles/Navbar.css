@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    padding: 10px 30px; 
+    z-index: 1000; 
+  }
+  
+  .navbar-logo img {
+    height: 50px; 
+    margin-right: 5px; 
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .App {
+    padding-top: 70px; 
+  }
+  
