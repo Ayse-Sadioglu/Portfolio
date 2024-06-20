@@ -29,7 +29,7 @@
   letter-spacing: 7px!important;
   cursor: pointer;
   text-transform: uppercase;
-  padding: 30px;
+  padding: 10px;
   background: linear-gradient(to right, hsla(0, 0%, 30%, 0.521) 0, hsl(0, 0%, 100%) 10%, hsl(23, 4%, 58%) 20%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -48,10 +48,10 @@
   }
 }
 .intro-subtext {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playwrite AU QLD', sans-serif;
   font-size: 15px;
   color: #ccc; 
-  margin-top: 20px; 
+  margin-top: 5px; 
   text-align: center;
 
 } 

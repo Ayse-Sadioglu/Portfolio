@@ -16,7 +16,7 @@ return (
   <div className="intro-container">
     <div className="intro-content">
       <div className="intro-text">
-      <img src={skatercat} alt="Intro GIF" className="intro-image" />
+      {/* <img src={skatercat} alt="Intro GIF" className="intro-image" /> */}
 
         <h1 className="intro-header">Drem Yol Lok, Greetings</h1>
 
